@@ -1,0 +1,7 @@
+The required packages are: 
+
+BeautifulSoup
+Requests library
+xlwt package
+time package
+xlrd package
