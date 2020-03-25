@@ -27,7 +27,7 @@ def data_collect(sec):
 	count = 0
 	col=0
 	word=[]
-	for line in content_main.find_all('tr'): #tr style also has some data to be extracted(almost every alternate title)
+	for line in content_main.find_all('tr'):
 		col=0
 		wb = xlrd.open_workbook("C:/Users/KEVINBONYTHEKKANATH-/Desktop/Zelish/Codes/Stock data.xls")
 		sheet = wb.sheet_by_index(0)
